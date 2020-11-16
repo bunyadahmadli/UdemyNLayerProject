@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UdemyNlayerProject.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/UdemyNlayerProject.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdemyNlayerProject.Core.dll": {}
+        }
+      },
+      "UdemyNlayerProject.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "UdemyNlayerProject.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UdemyNlayerProject.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdemyNlayerProject.Data.dll": {}
+        }
+      },
+      "UdemyNlayerProject.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "UdemyNlayerProject.Core": "1.0.0",
+          "UdemyNlayerProject.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UdemyNlayerProject.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdemyNlayerProject.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UdemyNlayerProject.Core/1.0.0": {
+      "type": "project",
+      "path": "../UdemyNlayerProject.Core/UdemyNlayerProject.Core.csproj",
+      "msbuildProject": "../UdemyNlayerProject.Core/UdemyNlayerProject.Core.csproj"
+    },
+    "UdemyNlayerProject.Data/1.0.0": {
+      "type": "project",
+      "path": "../UdemyNlayerProject.Data/UdemyNlayerProject.Data.csproj",
+      "msbuildProject": "../UdemyNlayerProject.Data/UdemyNlayerProject.Data.csproj"
+    },
+    "UdemyNlayerProject.Service/1.0.0": {
+      "type": "project",
+      "path": "../UdemyNlayerProject.Service/UdemyNlayerProject.Service.csproj",
+      "msbuildProject": "../UdemyNlayerProject.Service/UdemyNlayerProject.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "UdemyNlayerProject.Core >= 1.0.0",
+      "UdemyNlayerProject.Data >= 1.0.0",
+      "UdemyNlayerProject.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bunyadahmadli\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\UdemyNlayerProject\\UdemyNlayerProject.API\\UdemyNlayerProject.API.csproj",
+      "projectName": "UdemyNlayerProject.API",
+      "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.API\\UdemyNlayerProject.API.csproj",
+      "packagesPath": "C:\\Users\\bunyadahmadli\\.nuget\\packages\\",
+      "outputPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\bunyadahmadli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj": {
+              "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj"
+            },
+            "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj": {
+              "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj"
+            },
+            "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj": {
+              "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
