@@ -4,11 +4,11 @@ using System.Text;
 using System.Threading.Tasks;
 using UdemyNlayerProject.Core.Models;
 
-namespace UdemyNlayerProject.Core.Repositories
+namespace UdemyNlayerProject.Core.Service
 {
- public   interface IProductRepository:IRepository<Product>
+   public interface IProductService:IService<Product>
     {
+        // bool ControlInnerBarcode(Product product);
         Task<Product> GetWithCategoryByIdAsync(int productId);
-
     }
 }

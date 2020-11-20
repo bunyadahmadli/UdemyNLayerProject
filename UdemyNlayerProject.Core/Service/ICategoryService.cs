@@ -4,11 +4,10 @@ using System.Text;
 using System.Threading.Tasks;
 using UdemyNlayerProject.Core.Models;
 
-namespace UdemyNlayerProject.Core.Repositories
+namespace UdemyNlayerProject.Core.Service
 {
-  public interface ICategoryRepository:IRepository<Category>
+  public interface ICategoryService:IService<Category>
     {
         Task<Category> GetWithProductByIdAsync(int categoryId);
-
     }
 }
