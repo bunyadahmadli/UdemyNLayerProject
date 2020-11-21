@@ -1,4 +1,6 @@
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.deps.json
+C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.runtimeconfig.json
+C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.runtimeconfig.dev.json
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.dll
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.pdb
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Core.dll
@@ -6,10 +8,8 @@ C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlaye
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.csprojAssemblyReference.cache
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.AssemblyInfoInputs.cache
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.AssemblyInfo.cs
+C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.csproj.CoreCompileInputs.cache
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.csproj.CopyComplete
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.dll
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.pdb
-C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.runtimeconfig.json
-C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.runtimeconfig.dev.json
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.genruntimeconfig.cache
-C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.csproj.CoreCompileInputs.cache
