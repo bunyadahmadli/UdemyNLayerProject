@@ -12,3 +12,4 @@ C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlaye
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.runtimeconfig.json
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.runtimeconfig.dev.json
 C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.genruntimeconfig.cache
+C:\UdemyNlayerProject\UdemyNlayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Data.csproj.CoreCompileInputs.cache
