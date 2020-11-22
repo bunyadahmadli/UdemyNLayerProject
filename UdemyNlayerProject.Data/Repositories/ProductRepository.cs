@@ -10,13 +10,7 @@ namespace UdemyNlayerProject.Data.Repositories
 {
    public class ProductRepository:Repository<Product>,IProductRepository
     {
-        private AppDbContext appDbContext
-        {
-            get
-            {
-                return _context as AppDbContext;
-            }
-        }
+        public AppDbContext _appDbContext { get=> _context as AppDbContext; }
 
 
         public ProductRepository(DbContext context) : base(context)
@@ -26,7 +20,7 @@ namespace UdemyNlayerProject.Data.Repositories
 
         public async Task<Product> GetWithCategoryByIdAsync(int productId)
         {
-            return await appDbContext.Products.Include(x => x.Category).SingleOrDefaultAsync(x => x.Id == productId);
+            return await _appDbContext.Products.Include(x => x.Category).SingleOrDefaultAsync(x => x.Id == productId);
         }
     }
 }
