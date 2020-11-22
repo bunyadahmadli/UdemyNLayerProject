@@ -1,8 +1,0 @@
-C:\UdemyNlayerProject\UdemyNlayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Core.deps.json
-C:\UdemyNlayerProject\UdemyNlayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Core.dll
-C:\UdemyNlayerProject\UdemyNlayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Core.pdb
-C:\UdemyNlayerProject\UdemyNlayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Core.AssemblyInfoInputs.cache
-C:\UdemyNlayerProject\UdemyNlayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Core.AssemblyInfo.cs
-C:\UdemyNlayerProject\UdemyNlayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Core.csproj.CoreCompileInputs.cache
-C:\UdemyNlayerProject\UdemyNlayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Core.dll
-C:\UdemyNlayerProject\UdemyNlayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNlayerProject.Core.pdb
