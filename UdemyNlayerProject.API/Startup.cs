@@ -11,9 +11,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using UdemyNlayerProject.Core.Repositories;
+using UdemyNlayerProject.Core.Service;
 using UdemyNlayerProject.Core.UnitOfWorks;
 using UdemyNlayerProject.Data;
+using UdemyNlayerProject.Data.Repositories;
 using UdemyNlayerProject.Data.UnitOfWorks;
+using UdemyNlayerProject.Service.Services;
 
 namespace UdemyNlayerProject.API
 {
@@ -29,12 +33,22 @@ namespace UdemyNlayerProject.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IService<>), typeof(Service.Services.Service<>));
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            
+
+            
             services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(Configuration["ConnectionStrings:SqlConStr"].ToString(),
                 o =>
                 {
                     o.MigrationsAssembly("UdemyNlayerProject.Data");
                 }));
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            
             services.AddControllers();
         }
 

@@ -13,7 +13,7 @@ namespace UdemyNlayerProject.Data.Repositories
         public AppDbContext _appDbContext { get=> _context as AppDbContext; }
 
 
-        public ProductRepository(DbContext context) : base(context)
+        public ProductRepository(AppDbContext context) : base(context)
         {
             
         }
