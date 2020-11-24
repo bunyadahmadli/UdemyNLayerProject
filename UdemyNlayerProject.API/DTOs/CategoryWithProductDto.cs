@@ -7,6 +7,6 @@ namespace UdemyNlayerProject.API.DTOs
 {
     public class CategoryWithProductDto:CategoryDto
     {
-        public IEnumerable<ProductDto> products {  get; set; }
+        public ICollection<ProductDto> Products {  get; set; }
     } 
 }

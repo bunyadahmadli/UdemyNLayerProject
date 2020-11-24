@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.Extensions.Configuration;
 using UdemyNlayerProject.API.DTOs;
 using UdemyNlayerProject.Core.Models;
 
@@ -14,6 +15,11 @@ namespace UdemyNlayerProject.API.Mapping
         {
             CreateMap<Category, CategoryDto>();
             CreateMap<CategoryDto, Category>();
+            CreateMap<Category, CategoryWithProductDto>();
+            CreateMap<CategoryWithProductDto, Category>();
+
+            CreateMap<Product, ProductDto>();
+            CreateMap<ProductDto, Product>();
 
         }
     }
