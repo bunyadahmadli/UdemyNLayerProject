@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using UdemyNlayerProject.API.DTOs;
+using UdemyNlayerProject.API.Filters;
 using UdemyNlayerProject.Core.Models;
 using UdemyNlayerProject.Core.Service;
 
@@ -44,7 +45,7 @@ namespace UdemyNlayerProject.API.Controllers
             var product = await _productService.GetWithCategoryByIdAsync(id);
             return Ok(_mapper.Map<ProductWithCategoryDto>(product));
         }
-
+        [ValidationFilter]
         [HttpPost]
         public async Task<IActionResult> Save(ProductDto productDto)
         {

@@ -23,12 +23,20 @@ namespace UdemyNlayerProject.API.Controllers
             _service = service;
         }
 
-        [HttpGet]
+        [HttpGet]   
         public async Task<IActionResult> GetAll()
         {
             var persons = await _service.GetAllAsync();
 
             return Ok(persons);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Save(Person person)
+        {
+            var newperson = await _service.AddAsync(person);
+            return Created(string.Empty, newperson);
+
         }
     }
 }
