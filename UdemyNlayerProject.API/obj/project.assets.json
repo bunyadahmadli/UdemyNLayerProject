@@ -5880,8 +5880,6 @@
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
-      "UdemyNlayerProject.Core >= 1.0.0",
-      "UdemyNlayerProject.Data >= 1.0.0",
       "UdemyNlayerProject.Service >= 1.0.0"
     ]
   },
@@ -5911,12 +5909,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj": {
-              "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj"
-            },
-            "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj": {
-              "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj"
-            },
             "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj": {
               "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj"
             }

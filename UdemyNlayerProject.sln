@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyNlayerProject.API", "UdemyNlayerProject.API\UdemyNlayerProject.API.csproj", "{20446AEE-F183-477A-B754-F5CC8DFF5724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyNlayerProject.API", "UdemyNlayerProject.API\UdemyNlayerProject.API.csproj", "{20446AEE-F183-477A-B754-F5CC8DFF5724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyNlayerProject.Core", "UdemyNlayerProject.Core\UdemyNlayerProject.Core.csproj", "{6908BD35-D5D7-46F8-8A58-34EEA4B187BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyNlayerProject.Core", "UdemyNlayerProject.Core\UdemyNlayerProject.Core.csproj", "{6908BD35-D5D7-46F8-8A58-34EEA4B187BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyNlayerProject.Data", "UdemyNlayerProject.Data\UdemyNlayerProject.Data.csproj", "{22F9EBF4-A59F-47F1-A049-EDEA3541CE55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyNlayerProject.Data", "UdemyNlayerProject.Data\UdemyNlayerProject.Data.csproj", "{22F9EBF4-A59F-47F1-A049-EDEA3541CE55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyNlayerProject.Service", "UdemyNlayerProject.Service\UdemyNlayerProject.Service.csproj", "{2124B73F-FD9F-40DA-97D8-B69EE464C9E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyNlayerProject.Service", "UdemyNlayerProject.Service\UdemyNlayerProject.Service.csproj", "{2124B73F-FD9F-40DA-97D8-B69EE464C9E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyNlayerProject.Web", "UdemyNlayerProject.Web\UdemyNlayerProject.Web.csproj", "{5C9B4A9B-D7C2-4BB2-9972-A62C51188708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2124B73F-FD9F-40DA-97D8-B69EE464C9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2124B73F-FD9F-40DA-97D8-B69EE464C9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2124B73F-FD9F-40DA-97D8-B69EE464C9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9B4A9B-D7C2-4BB2-9972-A62C51188708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9B4A9B-D7C2-4BB2-9972-A62C51188708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9B4A9B-D7C2-4BB2-9972-A62C51188708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9B4A9B-D7C2-4BB2-9972-A62C51188708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

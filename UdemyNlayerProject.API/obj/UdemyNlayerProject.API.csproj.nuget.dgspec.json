@@ -27,12 +27,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj": {
-                "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj"
-              },
-              "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj": {
-                "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj"
-              },
               "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj": {
                 "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj"
               }

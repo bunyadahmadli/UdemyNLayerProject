@@ -54,9 +54,9 @@ C:\UdemyNlayerProject\UdemyNlayerProject.API\bin\Debug\netcoreapp3.1\runtimes\wi
 C:\UdemyNlayerProject\UdemyNlayerProject.API\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Core.dll
 C:\UdemyNlayerProject\UdemyNlayerProject.API\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.dll
 C:\UdemyNlayerProject\UdemyNlayerProject.API\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Service.dll
+C:\UdemyNlayerProject\UdemyNlayerProject.API\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Service.pdb
 C:\UdemyNlayerProject\UdemyNlayerProject.API\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Core.pdb
 C:\UdemyNlayerProject\UdemyNlayerProject.API\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Data.pdb
-C:\UdemyNlayerProject\UdemyNlayerProject.API\bin\Debug\netcoreapp3.1\UdemyNlayerProject.Service.pdb
 C:\UdemyNlayerProject\UdemyNlayerProject.API\obj\Debug\netcoreapp3.1\UdemyNlayerProject.API.csprojAssemblyReference.cache
 C:\UdemyNlayerProject\UdemyNlayerProject.API\obj\Debug\netcoreapp3.1\UdemyNlayerProject.API.AssemblyInfoInputs.cache
 C:\UdemyNlayerProject\UdemyNlayerProject.API\obj\Debug\netcoreapp3.1\UdemyNlayerProject.API.AssemblyInfo.cs
