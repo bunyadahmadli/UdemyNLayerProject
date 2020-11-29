@@ -1,3 +1,4 @@
+using System;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -12,6 +13,7 @@ using UdemyNlayerProject.Data;
 using UdemyNlayerProject.Data.Repositories;
 using UdemyNlayerProject.Data.UnitOfWorks;
 using UdemyNlayerProject.Service.Services;
+using UdemyNlayerProject.Web.ApiService;
 using UdemyNlayerProject.Web.Filters;
 
 namespace UdemyNlayerProject.Web
@@ -28,6 +30,11 @@ namespace UdemyNlayerProject.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpClient<CategoryApiService>(opt =>
+            {
+                opt.BaseAddress =new Uri(Configuration["baseUrl"]);
+            });
+
             services.AddAutoMapper(typeof(Startup));
             services.AddScoped<NotFoundFilter>();
 
