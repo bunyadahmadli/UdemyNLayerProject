@@ -52,5 +52,13 @@ namespace UdemyNlayerProject.Web.Controllers
             _categoryService.Update(_mapper.Map<Category>(categoryDto));
             return RedirectToAction("Index");
         }
+
+        public IActionResult Delete(int id)
+        {
+            var category = _categoryService.GetByIdAsync(id).Result;
+            _categoryService.Remove(category);
+            return RedirectToAction("Index");
+
+        }
     }
 }
