@@ -4,8 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using UdemyNlayerProject.Core.Models;
-using UdemyNlayerProject.Core.Service;
 using UdemyNlayerProject.Web.ApiService;
 using UdemyNlayerProject.Web.DTOs;
 using UdemyNlayerProject.Web.Filters;
@@ -14,13 +12,12 @@ namespace UdemyNlayerProject.Web.Controllers
 {
     public class CategoriesController : Controller
     {
-        private readonly ICategoryService _categoryService;
         private readonly CategoryApiService _categoryApiService;
         private readonly IMapper _mapper;
 
-        public CategoriesController(ICategoryService categoryService, IMapper mapper, CategoryApiService categoryApiService)
+        public CategoriesController( IMapper mapper, CategoryApiService categoryApiService)
         {
-            _categoryService = categoryService;
+            
             _mapper = mapper;
             _categoryApiService = categoryApiService;
         }
@@ -51,16 +48,15 @@ namespace UdemyNlayerProject.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult Update(CategoryDto categoryDto)
+        public async Task<IActionResult> Update(CategoryDto categoryDto)
         {
-            _categoryService.Update(_mapper.Map<Category>(categoryDto));
+          await  _categoryApiService.UpdateAsync(categoryDto);
             return RedirectToAction("Index");
         }
         [ServiceFilter(typeof(NotFoundFilter))]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var category = _categoryService.GetByIdAsync(id).Result;
-            _categoryService.Remove(category);
+         await   _categoryApiService.RemoveAsync(id);
             return RedirectToAction("Index");
 
         }

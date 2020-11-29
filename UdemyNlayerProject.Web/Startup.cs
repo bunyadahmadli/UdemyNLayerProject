@@ -2,17 +2,10 @@ using System;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using UdemyNlayerProject.Core.Repositories;
-using UdemyNlayerProject.Core.Service;
-using UdemyNlayerProject.Core.UnitOfWorks;
-using UdemyNlayerProject.Data;
-using UdemyNlayerProject.Data.Repositories;
-using UdemyNlayerProject.Data.UnitOfWorks;
-using UdemyNlayerProject.Service.Services;
+
 using UdemyNlayerProject.Web.ApiService;
 using UdemyNlayerProject.Web.Filters;
 
@@ -38,20 +31,7 @@ namespace UdemyNlayerProject.Web
             services.AddAutoMapper(typeof(Startup));
             services.AddScoped<NotFoundFilter>();
 
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddScoped(typeof(IService<>), typeof(Service.Services.Service<>));
-            services.AddScoped<ICategoryService, CategoryService>();
-            services.AddScoped<IProductService, ProductService>();
-
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
-
-
-
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:SqlConStr"].ToString(),
-                o =>
-                {
-                    o.MigrationsAssembly("UdemyNlayerProject.Data");
-                }));
+           
 
 
             services.AddControllersWithViews();

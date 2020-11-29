@@ -4,14 +4,14 @@
     "C:\\UdemyNlayerProject\\UdemyNlayerProject.Web\\UdemyNlayerProject.Web.csproj": {}
   },
   "projects": {
-    "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj": {
+    "C:\\UdemyNlayerProject\\UdemyNlayerProject.Web\\UdemyNlayerProject.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj",
-        "projectName": "UdemyNlayerProject.Core",
-        "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj",
+        "projectUniqueName": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Web\\UdemyNlayerProject.Web.csproj",
+        "projectName": "UdemyNlayerProject.Web",
+        "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Web\\UdemyNlayerProject.Web.csproj",
         "packagesPath": "C:\\Users\\bunyadahmadli\\.nuget\\packages\\",
-        "outputPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\obj\\",
+        "outputPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bunyadahmadli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,203 +37,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj",
-        "projectName": "UdemyNlayerProject.Data",
-        "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj",
-        "packagesPath": "C:\\Users\\bunyadahmadli\\.nuget\\packages\\",
-        "outputPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\bunyadahmadli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj": {
-                "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj",
-        "projectName": "UdemyNlayerProject.Service",
-        "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj",
-        "packagesPath": "C:\\Users\\bunyadahmadli\\.nuget\\packages\\",
-        "outputPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\bunyadahmadli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj": {
-                "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Core\\UdemyNlayerProject.Core.csproj"
-              },
-              "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj": {
-                "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Data\\UdemyNlayerProject.Data.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\UdemyNlayerProject\\UdemyNlayerProject.Web\\UdemyNlayerProject.Web.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Web\\UdemyNlayerProject.Web.csproj",
-        "projectName": "UdemyNlayerProject.Web",
-        "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Web\\UdemyNlayerProject.Web.csproj",
-        "packagesPath": "C:\\Users\\bunyadahmadli\\.nuget\\packages\\",
-        "outputPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Web\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\bunyadahmadli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj": {
-                "projectPath": "C:\\UdemyNlayerProject\\UdemyNlayerProject.Service\\UdemyNlayerProject.Service.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             }
           },
           "imports": [
