@@ -12,6 +12,7 @@ using UdemyNlayerProject.Data;
 using UdemyNlayerProject.Data.Repositories;
 using UdemyNlayerProject.Data.UnitOfWorks;
 using UdemyNlayerProject.Service.Services;
+using UdemyNlayerProject.Web.Filters;
 
 namespace UdemyNlayerProject.Web
 {
@@ -28,6 +29,7 @@ namespace UdemyNlayerProject.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(Startup));
+            services.AddScoped<NotFoundFilter>();
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(IService<>), typeof(Service.Services.Service<>));
